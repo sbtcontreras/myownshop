@@ -1,0 +1,195 @@
+.container {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Inicio Header */
+
+.shopHeader {
+  height: auto;
+  width: 100%;
+  max-width: 1080px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+  border-bottom: 1px solid var(--dark);
+}
+
+.shopHeaderMain {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.shopHeaderBio {
+  height: auto;
+  width: 100%;
+  display: flex;
+}
+
+.bio {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.photoContainer {
+  height: 168px;
+  width: 168px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.photo {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.nameContainer {
+  width: auto;
+  height: 100%;
+  text-align: center;
+}
+
+.name {
+  font-size: xx-large;
+  font-weight: lighter;
+  color: white;
+}
+
+.shopHeaderDetails {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.telephone {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.address {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonsContainer {
+  width: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  width: 100%;
+  height: auto;
+  border: 2px solid var(--primary);
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  color: var(--lighter);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--dark);
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.button#secondary {
+  border-color: var(--light);
+  border-width: 3px;
+}
+
+.button:hover {
+  background-color: var(--dark);
+  color: white;
+}
+
+
+/* Fin Header */
+
+/* Formulario Contacto */
+
+.contactContainer {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.contactForm {
+  height: 50%;
+  width: 50%;
+  display: flex;
+  padding: 0 1rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--dark);
+  border-radius: 2rem;
+}
+
+.contactButton {
+  width: 100%;
+  height: calc(100% / (3 * 2));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  border: 1px solid black;
+  font-size: 1rem;
+  background-color: var(--primary);
+  color: white;
+  margin-top: 0.5rem;
+  cursor: pointer;
+
+}
+
+.contactCloseButton {
+  width: 100%;
+  height: 2rem;
+  font-size: 1rem;
+  font-weight: lighter;
+  background-color: var(--dark-50);
+  color: white;
+  cursor: pointer;
+  margin-top: 1rem;
+  border: 1px solid black;
+
+}
+
+/* Fin Formulario Contacto */

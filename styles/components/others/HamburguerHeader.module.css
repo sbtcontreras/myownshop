@@ -1,0 +1,126 @@
+/* Barra de navegación + Header */
+
+.headerContainer {
+  height: 6rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10%;
+  background: linear-gradient(to top, pink, rgb(255, 241, 243)  );
+}
+
+.logoContainer {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  overflow: hidden;
+}
+
+.logo{
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+
+.hamburguerContainer {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.hamburguerButton {
+  height: auto;
+  width: 15%;
+  cursor: pointer;
+}
+
+.hamburguerIcon {
+  height: 100%;
+  width: 100%;
+}
+
+.navContainer {
+  height: calc(90% - 6rem);
+  width: 90%;
+  position: absolute;
+  top: 6rem;
+  right: 0;
+  background-color: rgba(255, 192, 203, 0.9);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+  border-bottom-left-radius: 2rem;
+}
+
+.nav {
+  height: 100%;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  height: calc(70%/8);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: calc(30%/16);
+  border-radius: 2rem;
+  background-color: rgb(231, 138, 153);
+  color: white;
+}
+/* 
+.button#mainButton {
+  background-color: rgb(196, 75, 95);
+  color: white;
+}
+
+.button#secondaryButton {
+  background-color: rgb(147, 56, 73);
+  color: white;
+} */
+
+.buttonContent {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+/* Menu Abierto */
+
+.navContainer#open{
+  display: flex;
+}
+
+/* Menu Cerrado */
+
+.navContainer#closed{
+  display: none;
+}
+
+/* Responsivo */
+
+@media screen and (min-width: 767px) {
+  .headerContainer, .navContainer#open, .navContainer#closed {
+    display: none;
+  }
+}
+

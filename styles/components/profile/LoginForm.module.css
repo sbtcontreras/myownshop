@@ -1,0 +1,78 @@
+.centerAll {
+  height: calc(100vh - 4rem);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.formContainer {
+  height: auto;
+  width: 100%;
+  max-width: 768px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--dark);
+  border-radius: 1rem;
+}
+
+.form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.formInput {
+  width: 100%;
+  height: auto;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.formButton {
+  width: 100%;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  border: 1px solid black;
+  font-size: 1rem;
+  background-color: var(--primary);
+  color: white;
+  margin-top: 0.5rem;
+  cursor: pointer;
+}
+
+.formButton#secondary {
+  width: 100%;
+  height: 2rem;
+  font-size: 1rem;
+  font-weight: lighter;
+  background-color: var(--dark-50);
+  color: white;
+  cursor: pointer;
+}
+
+.formLink {
+  font-size: small;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.formButton:hover, .formButton#secondary:hover {
+  background-color: var(--dark);
+}
+
+.formButton:active, .formButton#secondary:active{
+  background-color: var(--light);
+}

@@ -1,0 +1,29 @@
+.titleContainer{
+   margin: 2rem 0 1rem 0;
+   height: auto;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+ }
+ 
+ .title {
+   height: calc(100% - 1.5rem);
+   width: 100%;
+   text-align: center;
+   font-weight: lighter;
+   font-size: 2rem;
+   color: var(--light);
+ }
+ 
+ .title#focus {
+   font-weight: bold;
+ }
+ 
+ .underLine {
+   height: 0.5rem;
+   background-color: var(--primary);
+   width: 20%;
+   margin: 0.5rem 0;
+ }

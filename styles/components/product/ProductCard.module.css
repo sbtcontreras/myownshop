@@ -1,0 +1,125 @@
+.card {
+   height: auto;
+   width: 100%;
+   max-width: 720px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+   padding: 1rem;
+   border-top-left-radius: 1rem;
+   border-bottom-right-radius: 1rem;
+   border: 2px solid var(--dark-50);
+}
+
+.imageContainer {
+   height: 64px;
+   width: 64px;
+   border-radius: 1rem;
+   overflow: hidden;
+}
+
+.image {
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+}
+
+.nameContainer {
+   height: auto;
+   width: auto;
+}
+
+.name {
+   font-size: 1.5rem;
+   font-weight: bold;
+   color: var(--lighter);
+}
+
+.infoContainer {
+   height: auto;
+   width: auto;
+}
+
+.descriptionContainer {
+   height: auto;
+   width: auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+}
+
+.description {
+   font-size: 1rem;
+   font-weight: lighter;
+   color: var(--lighter);
+}
+
+.priceContainer {
+   height: auto;
+   width: auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+}
+
+.price {
+   font-size: 2rem;
+   font-weight: bold;
+   color: var(--lighter);
+}
+
+.quantityContainer {
+   height: auto;
+   width: auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+}
+
+.quantity {
+   font-size: 1rem;
+   font-weight: lighter;
+}
+
+.discountContainer {
+   height: auto;
+   width: auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+}
+
+.buyContainer {
+   height: auto;
+   width: 5rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   align-items: center;
+}
+
+.numberField {
+   height: auto;
+   width: 100%;
+   background-color: transparent;
+   color: white;
+   margin-bottom: 0.5rem;
+}
+
+.buyButton {
+   font-size: 1rem;
+   font-weight: lighter;
+   padding: 0.1rem 1rem;
+   border-radius: 0.5rem;
+   background-color: var(--dark-50);
+   color: var(--lighter);
+}
+.buyButton:hover {
+   background-color: var(--light);
+   color: var(--dark-50);
+}

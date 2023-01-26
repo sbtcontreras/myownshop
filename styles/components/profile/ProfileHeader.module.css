@@ -1,0 +1,111 @@
+.container {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Inicio Header */
+
+.profileHeader {
+  height: auto;
+  width: 100%;
+  max-width: 1080px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+  border-bottom: 1px solid var(--dark);
+}
+
+.profileHeaderMain {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.photoContainer {
+  height: 168px;
+  width: 168px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.photo {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.nameContainer {
+  width: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.name{
+  font-size: xx-large;
+  font-weight: lighter;
+  color: white;
+}
+
+.buttonsContainer {
+  width: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  width: 100%;
+  height: auto;
+  border: 2px solid var(--primary);
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  color: var(--lighter);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button#secondary {
+  border-color: var(--light);
+  border-width: 3px;
+}
+
+.button:hover {
+  background-color: var(--dark);
+  color: white;
+}
+
+.profileHeaderBio {
+  height: auto;
+  width: 100%;
+  display: flex;
+}
+
+.bio {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+/* Fin Header */
