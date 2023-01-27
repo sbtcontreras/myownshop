@@ -29,8 +29,9 @@
   color: white;
 } 
 
-.button#mainButton {
-  width: calc(100% * 1.5 / 8);
+.button#mainButton {  
+  width: auto;
+  padding: 0 1rem;
   background-color: var(--dark);
   color: white;
 }

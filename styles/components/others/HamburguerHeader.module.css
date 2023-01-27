@@ -8,7 +8,13 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 10%;
-  background: linear-gradient(to top, pink, rgb(255, 241, 243)  );
+  background-color: #2d304a;
+}
+
+.headerText {
+  font-size: 2rem;
+  font-weight: bolder;
+  color: var(--lighter);
 }
 
 .logoContainer {
@@ -21,11 +27,6 @@
   overflow: hidden;
 }
 
-.logo{
-  height: auto;
-  width: 100%;
-  object-fit: cover;
-}
 
 .hamburguerContainer {
   height: 100%;
@@ -53,7 +54,7 @@
   position: absolute;
   top: 6rem;
   right: 0;
-  background-color: rgba(255, 192, 203, 0.9);
+  background-color: var(--darker-50);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -80,8 +81,8 @@
   align-items: center;
   margin: calc(30%/16);
   border-radius: 2rem;
-  background-color: rgb(231, 138, 153);
-  color: white;
+  background-color: var(--primary);
+  color: var(--lighter);
 }
 /* 
 .button#mainButton {

@@ -14,7 +14,7 @@ export default function HamburguerHeader({ session = null }: { session: Session 
     <>
       <div className={styles.headerContainer}>
         <Link href="/" className={styles.logoContainer}>
-          <Image className={styles.logo} src={nextLogo} alt='Next Logo' />
+          <h1 className={styles.headerText}> myOwnShop </h1>
         </Link>
         <div className={styles.hamburguerContainer} >
           <div className={styles.hamburguerButton} onClick={() => setOpen(!open)}> <Image className={styles.hamburguerIcon} src={(open) ? xIcon : hamburguerIcon} alt="Hamburguer Icon" /> </div>
