@@ -22,7 +22,7 @@ export default function EditProductForm({ productId, session }: { productId: num
                setLoading(false)
             }
          })
-   }, [productId])
+   }, [productId, session.user.id])
 
    function handleSubmit(event: any) {
       setLoading(true)

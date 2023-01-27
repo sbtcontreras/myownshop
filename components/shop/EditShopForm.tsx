@@ -22,7 +22,7 @@ export default function EditShopForm({ shopId, session }: { shopId: number, sess
                setLoading(false)
             }
          })
-   }, [shopId])
+   }, [shopId, session.user.id])
 
    function handleSubmit(event: any) {
       setLoading(true)
